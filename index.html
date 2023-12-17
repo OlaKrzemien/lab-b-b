@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TODO list</title>
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+	<body>
+		<div id="main-container">
+			<div id="todo-list">
+				<div id="searchContainer">
+					<button type="submit" id="searchButton"><i class="fa fa-search"></i></button><input type="text" id="searchText">
+				</div>
+				<div id="tasks">
+					<ul id="taskList">
+						
+					</ul>
+
+				</div>
+				<div id="addItemRow">
+
+					<input type="text" id="inputAddRow" minlength="3" maxlength="255" placeholder="do zrobienia...">
+					<input type="date" id="dateItem">
+					<button type="button" id="zapiszButton" >Zapisz</button>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
